@@ -1,0 +1,71 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: auto; /* Aligns the navigation to the right */
+}
+.nav-link {
+    color: black !important;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+body {
+    background-color: #8ea6e6;
+    font-family: Arial, sans-serif;
+}
+.project-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.project-section h2 {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.project-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.project-card h3 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+.project-text {
+    flex: 1;
+    padding-right: 20px;
+}
+.project-logo {
+    max-width: 200px;
+}
+.project-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.project-description {
+    text-align: left;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }.fa-instagram {
+    background: #125688;
+    color: white;
+  }
